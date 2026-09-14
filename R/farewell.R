@@ -15,17 +15,17 @@ farewell <- function(n = 1) {
 }
 
 farewell_starts <- c(
-  "May your code run",
-  "May your tests pass",
-  "May your packages build",
-  "May your merges be",
-  "May your plots render"
+  "May your R scripts run",
+  "May your pipes always flow",
+  "May your data frames stay",
+  "May your R CMD checks return",
+  "May your ggplots render"
 )
 
 farewell_endings <- c(
-  "on the first try",
   "without a single warning",
-  "faster than a for loop",
-  "in glorious green checkmarks",
-  "until we meet again"
+  "on the first try",
+  "perfectly tidy",
+  "with 0 errors, 0 warnings, and 0 notes",
+  "until we meet again in the global environment"
 )
