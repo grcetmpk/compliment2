@@ -4,7 +4,9 @@ Version: 0.1.0
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
 Description: Generate randomized compliments, including compliments about
-    coding in R.
+    coding in R, and random goodbyes. Developed at posit::conf 2026,
+    following the Modern R Workflow workshop
+    <https://posit-conf-2026.github.io/modern-r-workflow/>.
 License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8

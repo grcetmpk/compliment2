@@ -28,24 +28,30 @@ pak::pak("grcetmpk/compliment2")
 ``` r
 library(compliment2)
 compliment_r()
-#> [1] "Your R code is pure poetry!"
+#> [1] "Your ggplot never throws a warning!"
 ```
 
 Request more than one at a time with the `n` argument:
 
 ``` r
 compliment_r(3)
-#> [1] "Your R code is pure poetry!"                     
-#> [2] "Your data wrangling runs like a dream!"          
-#> [3] "Your tidyverse pipeline is elegantly vectorized!"
+#> [1] "Your function runs like a dream!"              
+#> [2] "Your R code sparkles like a well-faceted plot!"
+#> [3] "Your documentation runs like a dream!"
 ```
 
 When it’s time to log off, `farewell()` generates a random goodbye:
 
 ``` r
 farewell()
-#> [1] "May your merges be in glorious green checkmarks"
+#> [1] "May your pipes always flow until we meet again in the global environment"
 ```
+
+## Acknowledgments
+
+This package was developed at [posit::conf
+2026](https://posit-conf-2026.github.io/modern-r-workflow/), following
+the Modern R Workflow workshop, and built with Posit AI Pass.
 
 ## License
 

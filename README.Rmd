@@ -53,6 +53,12 @@ When it's time to log off, `farewell()` generates a random goodbye:
 farewell()
 ```
 
+## Acknowledgments
+
+This package was developed at
+[posit::conf 2026](https://posit-conf-2026.github.io/modern-r-workflow/),
+following the Modern R Workflow workshop, and built with Posit AI Pass.
+
 ## License
 
 compliment2 is released under the [MIT license](LICENSE.md).
